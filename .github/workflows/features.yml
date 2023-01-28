@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: cloud.canister.io:5000/gokul12345/cloud_application
+          images: cloud.canister.io/n/gokul12345/cloud_application
 
       - name: Cache Docker layers
         uses: actions/cache@v2
